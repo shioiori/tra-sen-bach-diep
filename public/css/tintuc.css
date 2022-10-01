@@ -1,0 +1,46 @@
+
+#news-page{
+    background-image: url(../images/tin-tuc/background-tintuc.png);
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    font-family: Athena;
+}
+
+#news-page h3{
+    margin: 4% 0 1% 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#news-page .container .row .col-md-4 .news-item{
+    display: block;
+    padding: 1.25rem;
+}
+
+
+#news-page .container .row .col-md-4 .news-item img{
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#news-page .container .row .col-md-4 .news-item a{
+    text-decoration: none;
+    color: #899a29;
+    font-size: 22px;
+    font-weight: bold;
+    height: 10%;
+}
+
+#news-page .container .row .col-md-4 .news-item p{
+    margin-top: 0.5rem; 
+    font-size: 16px;
+    line-height: normal;
+    text-align: justify;
+}
+
+@media screen and (max-width: 700px){
+    #news-page .container .row .col-md-4 .news-item {
+        padding: 2rem 4rem;
+    }
+}
+

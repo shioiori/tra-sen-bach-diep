@@ -1,0 +1,71 @@
+#banner{
+    position: relative;
+}
+
+#banner .intro-banner{
+    position: absolute;
+    width: 60%;
+    top: 30%;
+    transform: translate(-50%);
+    left: 50%;
+}
+
+#banner .intro-banner img{
+    width: 100%;
+}
+
+#banner .intro-banner p{
+    text-transform: uppercase;
+}
+
+#banner .intro-banner .trasen{
+    font-size: 2vw;
+    color: #aabc44;
+    margin-bottom: -5.5%;
+}
+
+#banner .intro-banner .bachdiep{
+    font-size: 4vw;
+    margin-top: 1rem;
+}
+
+#intro{
+    background-image: url(../images/gioi-thieu/banner02.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: 0 25%;
+    padding-bottom: 3rem;
+    font-family: Athena;
+}
+
+#intro h3{
+    margin: 4rem 0 2rem 0;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#intro .container{
+    width: 60%;
+}
+
+#intro .container p{
+    text-align: justify;
+    font-size: 18px;
+    line-height: normal;
+    margin: 1.5rem 0 1.5rem;
+}
+
+#intro .container img{
+    width: 100%;
+    margin: 1.5rem 0;
+}
+
+@media (max-width: 700px) {
+    #intro .container{
+        width: 80%;
+    }
+
+    footer{
+        padding-left: 1rem;
+    }
+}
